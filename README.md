@@ -10,7 +10,7 @@ An asynchronous client library for the Twitter [REST](https://dev.twitter.com/re
 [![wercker status](https://app.wercker.com/status/624dbe8ad011852d1e01d7dc03941fc5/s/master "wercker status")](https://app.wercker.com/project/bykey/624dbe8ad011852d1e01d7dc03941fc5) [![NPM](https://nodei.co/npm/twitter.png?mini=true)](https://nodei.co/npm/twitter/)
 
 ```javascript
-var Twitter = require('twitter');
+var Twitter = require('twitter-enhanced');
 
 var client = new Twitter({
   consumer_key: '',
@@ -29,14 +29,14 @@ client.get('statuses/user_timeline', params, function(error, tweets, response){
 
 ## Installation
 
-`npm install twitter`
+`npm install twitter-enhanced`
 
 ## Quick Start
 
 You will need valid Twitter developer credentials in the form of a set of consumer and access tokens/keys.  You can get these [here](https://apps.twitter.com/).  Do not forgot to adjust your permissions - most POST request require write permissions.
 
 ```javascript
-var Twitter = require('twitter');
+var Twitter = require('twitter-enhanced');
 
 var client = new Twitter({
   consumer_key: '',

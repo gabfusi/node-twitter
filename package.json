@@ -1,6 +1,6 @@
 {
   "name": "twitter-enhanced",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Twitter API client library for node.js, enhanced with Stream API POST requests",
   "keywords": [
     "twitter",
